@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/2005/Atom">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+视频：
+<video width="320" height="240" controls>
+    <source th:src="${video}" type="video/mp4">
+    您的浏览器不支持Video标签。
+</video>
+图片:<img th:src="${image}">
+</body>
+</html>
